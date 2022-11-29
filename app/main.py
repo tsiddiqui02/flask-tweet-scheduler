@@ -53,7 +53,7 @@ def add_tweet():
     if not time:
         return "error! no time"
     pw = request.form['pw']
-    if not pw or pw != "1234":
+    if not pw or pw != "XXXXXX":    #insert password
         return "error! incorrect password"
     
     #twitter tweet message cap is 280 characters
